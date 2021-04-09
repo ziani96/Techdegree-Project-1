@@ -71,11 +71,12 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid gainsboro;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -84,7 +85,7 @@ header .profile-image:hover {
 
 .tag {
   color: white;
-  padding: 80px;
+  padding: 10px;
   border-radius: 5px;
   display: table;
   margin: auto;
